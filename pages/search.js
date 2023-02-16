@@ -78,7 +78,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main
+      <main id='colouring'
         className={styles.searchMain}
         style={{
           backgroundColor: selectedGenre ? genreColors[selectedGenre] : "#495e5c",
