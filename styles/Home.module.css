@@ -45,7 +45,7 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -156,7 +156,17 @@
 
 .header h1 {
   margin: 0;
-  padding-right: 20px;
+  width: 50vw;
+  text-align: left;
+  position: relative;
+}
+
+.header h2 {
+  margin: 0;
+  width: 50vw;
+  text-align: center;
+  position: relative;
+  border: red 2px solid;
 }
 
 .header img {
@@ -624,8 +634,11 @@
     width: 370px;
   }
   .header {
-    font-size: 1.95em;
+    font-size: 1.75em;
     text-align: center;
-    margin-right: 130px;
+    padding-right: 2rem;
+  }
+  .cont {
+    width: 370px;
   }
 }
