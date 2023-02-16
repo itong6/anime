@@ -87,7 +87,7 @@ export default function Home() {
       <Music />
       <Up />
         <a className={styles.back} onClick={()=> {r.push('/')}}>⬅</a>
-        <h2>Pick a Genre to Watch!</h2>
+        <h2 className={styles.header}>Pick a Genre to Watch!</h2>
         <div className={styles.genreButtons}>
           <button className={styles.drama} onClick={() =>  { setSelectedGenre("Drama") 
           {dudu("/sounds/dudu.mp3")}

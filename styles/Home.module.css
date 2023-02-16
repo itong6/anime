@@ -184,7 +184,7 @@
 .loadingSplash {
   width: 100%;
   height: 100vh;
-  opacity: 30%;
+  filter: brightness(30%);
   object-fit: cover;
   z-index: -1;
 }
@@ -299,17 +299,30 @@
   font-weight: 300;
 }
 
+.header {
+  color: white;
+}
+
 .back {
   position: absolute;
   cursor: pointer;
   top: 10px;
-  left: 50px;
+  left: 40px;
   font-size: 80px;
+}
+
+.searchMain button {
+  color: white;
+}
+
+.searchMain button:hover {
+  color: white;
 }
 
 
 .drama {
   background-color: #703d06;
+  color: white;
 }
 
 .drama:hover {
@@ -603,5 +616,11 @@
   }
   .back {
     left: 8px;
+  }
+}
+
+@media (min-width: 400px) {
+  .infoCont {
+    width: 400px;
   }
 }

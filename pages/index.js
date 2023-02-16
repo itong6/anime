@@ -47,7 +47,7 @@ export default function Home() {
         <Music />
         <div className={styles.header}>
         <img className='gif' src="images/gif2.gif" alt="Anime GIF" />
-        <h1>Find an Anime to Watch!</h1>
+        <h1 className={styles.header}>Find an Anime to Watch!</h1>
         <img className='gif' src="images/gif.gif" alt="Anime GIF" />
         </div>
         <Up />
