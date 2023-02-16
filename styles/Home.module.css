@@ -619,8 +619,13 @@
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 390px) {
   .infoCont {
-    width: 400px;
+    width: 370px;
+  }
+  .header {
+    font-size: 1.95em;
+    text-align: center;
+    margin-right: 130px;
   }
 }
