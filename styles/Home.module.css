@@ -430,7 +430,7 @@
 
 .yumeko {
   position: absolute;
-  top: 5000px;
+  margin-top: 5000px;
   width: 60vw;
   opacity: 20%;
 }
@@ -617,6 +617,16 @@
   opacity: 20%;
 }
 
+.animeGifCont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 80vw;
+}
+
 @media (max-width: 500px) {
   .cont {
     width: 390px;
@@ -641,4 +651,123 @@
   .cont {
     width: 370px;
   }
+}
+
+@media (min-width: 1100px) {
+
+  .anyaThree {
+    position: absolute;
+    top: 500px;
+    width: 60vw;
+    opacity: 20%;
+  }
+  
+  .yumeko {
+    display: none;
+  }
+  
+  .naruto {
+    display: none;
+  }
+  
+  .mikasa {
+    display: none;
+  }
+  
+  .shoto {
+    display: none;
+  }
+  
+  .dance {
+    display: none;
+  }
+  
+  .eight{
+    display: none;
+  }
+  
+  .nine{
+    display: none;
+  }
+  
+  .deku {
+    display: none;
+  }
+  
+  .ten {
+    display: none;
+  }
+  
+  .eleven {
+    display: none;
+  }
+  
+  .twelve {
+    display: none;
+  }
+  
+  .thirteen {
+    display: none;
+  }
+  
+  .fourteen {
+    display: none;
+  }
+  
+  .fifthteen {
+    display: none;
+  }
+  
+  .sixteen {
+    display: none;
+  }
+  
+  .seventeen {
+    display: none;
+  }
+  
+  .eightteen {
+    display: none;
+  }
+  
+  .nineteen {
+    display: none;
+  }
+  
+  .twenty {
+    display: none;
+  }
+  
+  .twentyone {
+    display: none;
+  }
+  
+  .twentytwo {
+    display: none;
+  }
+  
+  .twentythree {
+    display: none;
+  }
+  
+  .twentyfour {
+    display: none;
+  }
+  
+  .twentyfourr {
+    display: none;
+  }
+  
+  .twentyfive {
+    display: none;
+  }
+  
+  .twentysix {
+    display: none;
+  }
+  
+  .twentyseven {
+    display: none;
+  }
+  
 }
