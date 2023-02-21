@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: rgb(78,9,21);
+  background: black;
   background: linear-gradient(0deg, rgba(78,9,21,1) 0%, rgba(85,11,75,1) 12%, rgba(12,10,79,1) 25%, rgba(7,67,70,1) 37%, rgba(30,80,9,1) 52%, rgba(78,73,8,1) 67%, rgba(74,46,8,1) 83%, rgba(80,8,8,1) 100%);
 }
 
