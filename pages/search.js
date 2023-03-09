@@ -75,7 +75,7 @@ export default function Home() {
           property="og:description"
           content="Anime Recommendations"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/anya2.png" />
       </Head>
 
       <main id='colouring'

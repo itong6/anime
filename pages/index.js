@@ -32,7 +32,7 @@ export default function Home() {
         <meta name="anime" content="Animes to Watch" />
         <meta property="og:title" content="Assignment #2 - Home Page" />
         <meta property="og:description" content="Anime Recommendations" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/anya2.png" />
       </Head>
 
       <main className={styles.main} id="colouring">
